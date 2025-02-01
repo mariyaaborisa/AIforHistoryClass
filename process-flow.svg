@@ -1,0 +1,61 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="300" fill="#f8fafc" rx="10"/>
+  
+  <!-- Flow Steps -->
+  <g transform="translate(50, 50)">
+    <!-- Step 1: Setup -->
+    <rect x="0" y="0" width="160" height="80" fill="#bfdbfe" rx="8"/>
+    <text x="80" y="45" text-anchor="middle" font-family="Arial" font-size="14" fill="#1e293b">
+      <tspan x="80" dy="-10">1. Create Accounts</tspan>
+      <tspan x="80" dy="25">D-ID, AWS, OpenAI</tspan>
+    </text>
+
+    <!-- Arrow 1 -->
+    <path d="M 170 40 L 190 40" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <!-- Step 2: Install -->
+    <rect x="200" y="0" width="160" height="80" fill="#bfdbfe" rx="8"/>
+    <text x="280" y="45" text-anchor="middle" font-family="Arial" font-size="14" fill="#1e293b">
+      <tspan x="280" dy="-10">2. Install Python</tspan>
+      <tspan x="280" dy="25">& Packages</tspan>
+    </text>
+
+    <!-- Arrow 2 -->
+    <path d="M 370 40 L 390 40" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <!-- Step 3: Configure -->
+    <rect x="400" y="0" width="160" height="80" fill="#bfdbfe" rx="8"/>
+    <text x="480" y="45" text-anchor="middle" font-family="Arial" font-size="14" fill="#1e293b">
+      <tspan x="480" dy="-10">3. Setup Project</tspan>
+      <tspan x="480" dy="25">Configuration</tspan>
+    </text>
+
+    <!-- Arrow 3 -->
+    <path d="M 570 40 L 590 40" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <!-- Step 4: Run -->
+    <rect x="600" y="0" width="160" height="80" fill="#bfdbfe" rx="8"/>
+    <text x="680" y="45" text-anchor="middle" font-family="Arial" font-size="14" fill="#1e293b">
+      <tspan x="680" dy="-10">4. Run System</tspan>
+      <tspan x="680" dy="25">& Test</tspan>
+    </text>
+
+    <!-- Usage Flow -->
+    <g transform="translate(0, 150)">
+      <rect x="100" y="0" width="600" height="80" fill="#ddd6fe" rx="8"/>
+      <text x="400" y="45" text-anchor="middle" font-family="Arial" font-size="14" fill="#1e293b">
+        <tspan x="400" dy="-10">Usage: Record → Process → Watch Response</tspan>
+        <tspan x="400" dy="25">🎤 ➡️ ⚙️ ➡️ 🎥</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- Arrow Marker -->
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+      markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>

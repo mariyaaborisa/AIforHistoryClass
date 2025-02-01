@@ -1,0 +1,39 @@
+<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="200" fill="#f8fafc" rx="10"/>
+  
+  <!-- Requirements Boxes -->
+  <g transform="translate(50, 40)">
+    <!-- Computer Box -->
+    <rect x="0" y="0" width="150" height="120" fill="#e2e8f0" rx="8"/>
+    <text x="75" y="40" text-anchor="middle" font-family="Arial" font-size="14" fill="#1e293b">
+      <tspan x="75" dy="0">💻</tspan>
+      <tspan x="75" dy="25">Computer with</tspan>
+      <tspan x="75" dy="20">Internet</tspan>
+    </text>
+
+    <!-- Email Box -->
+    <rect x="200" y="0" width="150" height="120" fill="#e2e8f0" rx="8"/>
+    <text x="275" y="40" text-anchor="middle" font-family="Arial" font-size="14" fill="#1e293b">
+      <tspan x="275" dy="0">📧</tspan>
+      <tspan x="275" dy="25">Email</tspan>
+      <tspan x="275" dy="20">Address</tspan>
+    </text>
+
+    <!-- Credit Card Box -->
+    <rect x="400" y="0" width="150" height="120" fill="#e2e8f0" rx="8"/>
+    <text x="475" y="40" text-anchor="middle" font-family="Arial" font-size="14" fill="#1e293b">
+      <tspan x="475" dy="0">💳</tspan>
+      <tspan x="475" dy="25">Credit Card for</tspan>
+      <tspan x="475" dy="20">Free Trials</tspan>
+    </text>
+
+    <!-- Time Box -->
+    <rect x="600" y="0" width="150" height="120" fill="#e2e8f0" rx="8"/>
+    <text x="675" y="40" text-anchor="middle" font-family="Arial" font-size="14" fill="#1e293b">
+      <tspan x="675" dy="0">⏰</tspan>
+      <tspan x="675" dy="25">30-45</tspan>
+      <tspan x="675" dy="20">Minutes</tspan>
+    </text>
+  </g>
+</svg>
