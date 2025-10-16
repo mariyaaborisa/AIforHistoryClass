@@ -14,9 +14,7 @@
 9. [Looking Forward](#looking-forward)
 
 ## Introduction: Why AI Avatars for History?
-
 As a history teacher, you've likely experienced the challenge of making historical figures feel real to your students. When I first encountered this challenge in my own classroom, I discovered that AI avatar technology could transform how students connect with historical figures. This guide shares what I've learned about using AI avatars to create engaging, standards-aligned history lessons that bring the past into conversation with the present.
-
 ## Meeting Standards Through Technology
 
 When designing this approach, I focused on key California History-Social Science standards that emphasize historical analysis and interpretation. For instance, HSS 11.10 asks students to examine the development of civil rights through multiple perspectives. By creating an AI avatar of Frederick Douglass or Ida B. Wells, students can engage directly with these perspectives through primary source documents brought to life.
